@@ -9,3 +9,28 @@ Terraform is an IaC tool that enables you to build, change and manage infrastruc
 ```bash
 terraform -v
 ```
+
+## Before we continue
+Open the editor in the top left corner of the VM
+On the left panel you should see a file called `main.tf``
+This is the file that represents the infrastructure that we will be creating with Terraform.
+Press it to open it.
+
+### Understanding `main.tf``
+
+#### The terraform block
+Here we are telling Terraform to use the Docker plugin, with a pinned version
+
+#### `provider "docker" {}`
+- Connects Terraform to your local Docker daemon
+- It just talks to Docker running on this machine.
+
+#### `docker_network` 
+- Creates a private network that containers can join. Containers on the same network can find each other by name. This makes it so that nginx can "call" the backend.
+
+#### `backend container`
+- Pulls the httpd (Apache) image and runs it as a container named "backend".
+- Joins the network "app_net", so that it is reachable by name on that network.
+
+#### `nginx container`
+Runs nginx, exposed on port 8000, joined to the same network (app_net), and configured (via nginx.conf) to forward requests to backend. You can open nginx.conf to see how.
