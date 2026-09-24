@@ -1,0 +1,16 @@
+{
+  "title": "Terraform ",
+  "description": " ",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [
+      { "title": "Step1", "text": "step1.md" },
+      { "title": "Step2", "text": "step2.md" },
+      { "title": "Step3", "text": "step3.md" }
+    ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
