@@ -10,6 +10,12 @@
     ],
     "finish": { "text": "finish.md" }
   },
+   "assets": {
+      "client": [
+        { "file": "main.tf", "target": "~/" },
+        { "file": "nginx.conf", "target": "~/" }
+      ]
+    },
   "backend": {
     "imageid": "ubuntu"
   }
