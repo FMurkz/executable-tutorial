@@ -14,8 +14,8 @@
   },
   "assets": {
     "client": [
-      { "file": "main.tf", "target": "/root/" },
-      { "file": "nginx.conf", "target": "/root/" }
+      { "file": "main.tf", "target": "/root/main.tf" },
+      { "file": "nginx.conf", "target": "/root/nginx.conf" }
     ]
   },
   "backend": {
