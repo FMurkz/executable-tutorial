@@ -1,6 +1,6 @@
 {
-  "title": "Terraform",
-  "description": " ",
+  "title": "Infrastructure as Code with Terraform",
+  "description": "Set up, break, and fix a small app using Terraform.",
   "details": {
     "intro": {
       "text": "intro.md",
