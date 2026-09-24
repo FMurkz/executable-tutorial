@@ -2,7 +2,9 @@
   "title": "Terraform ",
   "description": " ",
   "details": {
-    "intro": { "text": "intro.md" },
+    "intro": { 
+      "text": "intro.md",
+      "background": "install-terraform.sh"},
     "steps": [
       { "title": "Step1", "text": "step1.md" },
       { "title": "Step2", "text": "step2.md" },
