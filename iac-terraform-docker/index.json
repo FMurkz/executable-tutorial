@@ -4,7 +4,7 @@
   "details": {
     "intro": { 
       "text": "intro.md",
-      "background": "install-terraform.sh"},
+      "foreground": "install-terraform.sh"},
     "steps": [
       { "title": "Step1", "text": "step1.md" },
       { "title": "Step2", "text": "step2.md" },
