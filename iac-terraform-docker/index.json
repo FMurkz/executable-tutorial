@@ -13,9 +13,9 @@
     "finish": { "text": "finish.md" }
   },
   "assets": {
-    "client": [
-      { "file": "main.tf", "target": "/root/main.tf" },
-      { "file": "nginx.conf", "target": "/root/nginx.conf" }
+    "host01": [
+      { "file": "main.tf", "target": "/root", "chmod": "+rw" },
+      { "file": "nginx.conf", "target": "/root", "chmod": "+rw" }
     ]
   },
   "backend": {
