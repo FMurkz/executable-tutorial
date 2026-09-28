@@ -20,16 +20,16 @@ terraform init
 ```bash
 terraform plan
 ```
-> By doing this we can see what Terraform would do without accually executing it.
+> By doing this we can see what Terraform would do without actually executing it.
 
 
 `3.` Now execute the plan:
 ```bash
 terraform apply
 ```
-> This command applies the plan that the `terraform plan` made. the network, the backend container, and the nginx container.
+> This command creates everything Terraform planned: the network, the backend container, and the nginx container.
 
-`4.` When promted type `yes` in the terminal.
+`4.` When prompted type `yes` in the terminal.
 
 ### Verify that it worked
 Input the following into the terminal:

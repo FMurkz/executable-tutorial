@@ -16,7 +16,7 @@ On the left panel you should see a file called `main.tf``
 This is the file that represents the infrastructure that we will be creating with Terraform.
 Press it to open it.
 
-### Understanding `main.tf``
+### Understanding `main.tf`
 
 #### The terraform block
 Here we are telling Terraform to use the Docker plugin, with a pinned version
