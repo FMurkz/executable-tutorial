@@ -9,7 +9,8 @@
     "steps": [
       { "title": "Step1", "text": "step1.md" },
       { "title": "Step2", "text": "step2.md" },
-      { "title": "Step3", "text": "step3.md" }
+      { "title": "Step3", "text": "step3.md" },
+      { "title": "Step4", "text": "step4.md" }
     ],
     "finish": { "text": "finish.md" },
     "assets": {

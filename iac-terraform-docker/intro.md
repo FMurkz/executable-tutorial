@@ -8,6 +8,23 @@ You will follow along to set up a simple application with two containers connect
 
 The tutorial will then simulate what happens when someone breaks the container by hand. You'll learn how to use Terraform in order to identify and automatically fix the problem.
 
+The tutorial contains of the following steps
+
+1. Look at the Terraform file that declares this setup, and use it to build the system
+2. Simulate a real incident 
+3. Watch nginx fail as a result
+4. Use Terraform to detect the problem and fix it automatically
+
+## App architecture
+You will be working with a small application which will be set up as follows:
+
+
+![Architecture diagram](architecture.svg)
+
+When you send a request to nginx, it forwards it to backend and relays the response back, nginx depends on backend to do its job, but backend doesn't know nginx exists.
+
+You can have a look at `nginx.conf` and `main.tf` too see more in detail
+
 ## Learning outcomes
 By the end of this tutorial, you will be able to:
 
