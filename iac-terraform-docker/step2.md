@@ -34,5 +34,5 @@ Input the following into the terminal:
 curl localhost:8000
 ```
 
-> You should now see Apache's "it works" in the terminal. <br>
+> You should now see Apache's "it works" in the terminal as html code. <br>
 > Even though we are asking nginx on port 8000, the response should come from the backend
