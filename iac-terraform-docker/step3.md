@@ -25,7 +25,7 @@ curl localhost:8000
 ```
 Notice anything? Nginx is still running... but it can no longer reach the backend it depends on.
 
-> It will try for a while to access the backend, it will eventually fail, if you wanna stop it, just press `CTRL+C` to stop the process.
+> The request will retry for a while before failing. You can press `CTRL+C` if you don't want to wait for it.
 
 Please continue to the next step to see how we can fix this issue.
 
