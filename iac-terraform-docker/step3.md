@@ -14,9 +14,9 @@ docker rm -f backend
 Oops, that wasn't a test container. You've just deleted `backend`, the container your nginx reverse proxy depends on.
 Check what happened:
 
-​```bash
+```bash
 curl localhost:8000
-​```
+```
 
 Notice anything? Nginx is still running... but it can no longer reach the backend it depends on.
 
