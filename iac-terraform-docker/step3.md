@@ -16,7 +16,7 @@ Oops, that wasn't a test container. You've just deleted `backend`, the container
 *Recall*, the architecture:
 
 
-![Architecture diagram](architecture.svg)
+![Architecture diagram](./architecture.svg)
 
 Check what happened:
 
