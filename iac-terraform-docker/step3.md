@@ -16,14 +16,14 @@ Oops, that wasn't a test container. You've just deleted `backend`, the container
 *Recall*, the architecture:
 
 
-![Architecture diagram](./architecture.svg)
+![Architecture diagram](./architecture.png)
 
 Check what happened:
 
 ```bash
 curl localhost:8000
 ```
-
+> This will try for a longer time to access the backend, if you get tired, just press `CTRL+C` to stop the process.
 
 Notice anything? Nginx is still running... but it can no longer reach the backend it depends on.
 

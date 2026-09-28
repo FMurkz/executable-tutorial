@@ -19,7 +19,7 @@ The tutorial contains of the following steps
 You will be working with a small application which will be set up as follows:
 
 
-![Architecture diagram](./architecture.svg)
+![Architecture diagram](./architecture.png)
 
 When you send a request to nginx, it forwards it to backend and relays the response back, nginx depends on backend to do its job, but backend doesn't know nginx exists.
 
